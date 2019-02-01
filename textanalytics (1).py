@@ -22,7 +22,7 @@ def download(g):
 
 def tokenize(a):
     """ This function downloads gives you tokenized words ."""
-    return[]
+    return word_tokenize(a)
 
 
 def stopw(b):
